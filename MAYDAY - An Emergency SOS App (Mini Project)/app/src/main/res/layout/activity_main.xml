@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Big SOS Button -->
+        <TextView
+            android:id="@+id/appTitle"
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="MAYDAY"
+            android:textColor="#D32F2F"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/messageInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/edittext_background"
+            android:hint="Enter emergency message..."
+            android:padding="16dp"
+            android:textSize="16sp" />
+
+        <FrameLayout
+            android:id="@+id/sosButton"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/circle_red"
+            android:foreground="?android:attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="SOS"
+                android:textColor="#FFFFFF"
+                android:textSize="48sp"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+        <!-- Other Options -->
+
+        <Button
+            android:id="@+id/alarmButton"
+            style="@style/MainButtonStyle"
+            android:text="Raise Alarm"
+            android:backgroundTint="#FFA000" />
+
+        <Button
+            android:id="@+id/capturePhotoButton"
+            style="@style/MainButtonStyle"
+            android:text="Capture Photo"
+            android:backgroundTint="#0288D1" />
+
+        <Button
+            android:id="@+id/speechToTextButton"
+            style="@style/MainButtonStyle"
+            android:text="Speech to Text"
+            android:backgroundTint="#7CB342" />
+
+        <Button
+            android:id="@+id/sendEmailButton"
+            style="@style/MainButtonStyle"
+            android:text="Send Email"
+            android:backgroundTint="#673AB7" />
+
+    </LinearLayout>
+</ScrollView>
