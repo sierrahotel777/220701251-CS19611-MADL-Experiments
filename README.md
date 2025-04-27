@@ -33,7 +33,7 @@
 
 ## 📸 Gallery
 
-![MAYDAY UI](assets/mayday_ui.png)
+![MAYDAY UI](assets/mayday_home.png)
 
 ---
 
