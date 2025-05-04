@@ -33,8 +33,7 @@
 
 ## 📸 Gallery
 
-*(You can add screenshots from individual experiments and the MAYDAY app here!)*  
-> Example: UI samples, SMS sending demo, Speech-to-Text screenshots, etc.
+![MAYDAY UI](assets/mayday_home.png)
 
 ---
 
